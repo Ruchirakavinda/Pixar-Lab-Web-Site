@@ -61,7 +61,7 @@ color: #000;
 }
 
 .topic2{
-    font-size: 60px;
+    font-size: 50px;
     color: #978b6d;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
@@ -78,7 +78,7 @@ color: #000;
     width: 80%;
     overflow: hidden;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     border-radius: 20px;
     box-shadow: 7px 7px 10px #afa282a2 ;
     -webkit-transition: all 0.7s ease-in-out;
@@ -129,6 +129,13 @@ font-size: 25px;
 font-weight: 700;
 }
 
+.crdTopic{
+    color: #6e6854;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 900;
+    margin-top: 10%;
+    
+}
 
 @media screen and (max-width : 1200px) {
     .topic2{
@@ -222,7 +229,7 @@ font-weight: 700;
         width: 60%;
         overflow: hidden;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 20px;
         background-size: 190%;
     }
 }
