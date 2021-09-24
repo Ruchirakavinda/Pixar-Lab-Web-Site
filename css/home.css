@@ -1,13 +1,13 @@
 .home{
-    background-image: linear-gradient( to right  , #f0eadc ,#ffffff00); 
+    background-image: linear-gradient( to right  , #eee8d9 30% ,#ffffff00 70%); 
     padding: 5% 0%;
 }
 .navigationbar{
-    background-color: rgba(255, 255, 255, 0.466);
+    background-color: rgba(255, 255, 255, 0.568);
    
 }
 .nav-item{
-    background-color: #AFA282 ;
+    background-color: #ebe3d0 ;
     margin: 10px 10px;
     width: 110px;
     text-align: center;
@@ -18,7 +18,7 @@
 }
 
 .nav-item:hover{
-    background-color: #AFA282 ;
+    background-color: #ebe3d0 ;
     margin: 10px 10px;
     width: 110px;
     text-align: center;
@@ -32,8 +32,10 @@
     box-shadow: 5px 6px 8px #afa282a2 ;
 }
 .navlink{
-    color: rgb(255, 255, 255);
+    color: #918464;
     text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bolder;
 }
 
 .collapse2{
@@ -46,7 +48,7 @@
 
 .topicCol{
 text-align: center;
-padding: 12% 0%;
+padding: 10% 0%;
 }
 .topic{
 font-size: 25px;
@@ -59,7 +61,7 @@ color: #000;
 
 .topic2{
     font-size: 60px;
-    color: #AFA282;
+    color: #978b6d;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
 }
@@ -78,8 +80,8 @@ color: #000;
     margin-top: 50px;
     border-radius: 20px;
     box-shadow: 7px 7px 10px #afa282a2 ;
-    -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
   background-size: 160%;
   background-position: center;
   background-repeat: no-repeat;
@@ -91,24 +93,27 @@ color: #000;
     background-size: 200%;
 }
 
-.wedimg{
-    height: 100%;
-    margin-left: -100px;
-    transition: 0.5s;
-    
-}
-.wedimg:hover{
-    height: 100%;
-    transition: 0.5s;
-    transform: scale(1.2);
-}
+
 
 .overlay{
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.603);
     width: 100%;
     height: 100%;
-    transform:translateY(100%)
+    transform:translateY(100%);
+    padding: 35% 10%;
     
+}
+
+.overlay > p{
+    color:#CAC3AC ;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+.overlay > h2{
+    color:#CAC3AC ;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 900;
 }
 
 @media screen and (max-width : 575px) {
@@ -166,6 +171,8 @@ color: #000;
         .navlink{
             color: #AFA282;
             text-decoration: none;
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 600;
         }
 }
 
