@@ -30,6 +30,11 @@
   src="js/navbar.js"
 ></script>
 
+<script
+  type="text/javascript"
+  src="js/home.js"
+></script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet"> 
@@ -82,6 +87,11 @@
         <!-- Container wrapper -->
       </nav>
  <!-- Navigation Bar END -->
+
+
+
+
+ 
 <div class="home">
   <div class="container">
     <div class="row">
@@ -283,21 +293,22 @@
   <section class="">
     <div class="container text-center text-md-start mt-5">
       <!-- Grid row -->
-      <div class="row mt-3">
+      <div class="row">
         <!-- Grid column -->
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h1 class="topic">
+            P <span class="red">i </span>x <span class="red">a </span>r &nbsp; <span class="red">L </span>a <span class="red">b </span>
+        </h1>
           <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4">
-        
-              <h1 class="topic">
-                  P <span class="red">i </span>x <span class="red">a </span>r &nbsp; <span class="red">L </span>a <span class="red">b </span>
-              </h1>
-        
-          </h6>
-          <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
-          </p>
+          <div class="form-outline">
+            <input type="url" id="typeURL" class="form-control" style=" border-radius: 10px;background-color:rgba(255, 255, 255, 0.295) ;" />
+            <label class="form-label" for="typeURL">E-mail</label>
+          </div>
+          <div class="form-outline">
+            <textarea class="form-control mt-2" id="textAreaExample" rows="2" style="background-color:rgba(255, 255, 255, 0.295) ; border-radius: 10px;"></textarea>
+            <label class="form-label" for="textAreaExample">Message</label>
+          </div>
+          <button type="button" class="btn btn-dark mt-2">send</button>
         </div>
         <!-- Grid column -->
 
