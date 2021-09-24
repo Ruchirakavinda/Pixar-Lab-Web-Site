@@ -25,6 +25,10 @@
   type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
 ></script>
+<script
+  type="text/javascript"
+  src="/js/navbar.js"
+></script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +36,7 @@
 </head>
 <body>
  <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-sm  navigationbar" style="box-shadow: 0px 0px 0px black;">
+    <nav class="navbar fixed-top navbar-expand-md  navigationbar" style="box-shadow: 0px 0px 0px black;" id="navbar">
         <!-- Container wrapper -->
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -59,11 +63,11 @@
            
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                
-                    <li class="nav-item" style="box-shadow: 5px 6px 8px #afa282a2 ;">
+                    <li class="nav-item nav-active" >
                         <a class="nav-link active" aria-current="page" href="#"><span class="navlink"  >Home</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#"><span class="navlink">About Us</span></a>
+                        <a class="nav-link" href="#"><span class="navlink" >About Us</span></a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#"><span class="navlink">Contact Us</span></a>
@@ -78,8 +82,8 @@
         <!-- Container wrapper -->
       </nav>
  <!-- Navigation Bar END -->
-
-<div class="container">
+<div class="home">
+  <div class="container">
     <div class="row">
         <div class="col-lg-5">
             <img src="/img/logo.png" class="logo">
@@ -93,7 +97,14 @@
         </div>
     </div>
 
+    <div class="row">
+      <img src="/img/line.png" style="height: 50px;margin: 50px 0px;">
+    </div>
+
 </div>
+
+</div>
+
 
 </body>
 </html>

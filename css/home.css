@@ -1,8 +1,9 @@
 .home{
-    
+    background-image: linear-gradient( to right  , #f0eadc ,#ffffff00); 
+    padding: 5% 0%;
 }
 .navigationbar{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.466);
    
 }
 .nav-item{
@@ -27,6 +28,9 @@
     box-shadow: 5px 6px 8px #afa282a2 ;
 
 }
+.nav-active{
+    box-shadow: 5px 6px 8px #afa282a2 ;
+}
 .navlink{
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -42,7 +46,7 @@
 
 .topicCol{
 text-align: center;
-padding: 150px 0px;
+padding: 12% 0%;
 }
 .topic{
 font-size: 25px;
@@ -61,20 +65,53 @@ color: #000;
 }
 
 @media screen and (max-width : 575px) {
-    .nav-item{
-        background-color: rgba(255, 255, 255, 0);
-        margin: 10px 10px;
-        width: 100%;
-        text-align: center;
-        border-radius: 10px;
-    }
-    .nav-item:hover{
-        background-color: #ffffff ;
-        margin: 10px 10px;
-        width: 100%;
-        text-align: center;
-        border-radius: 50px;
-        color: black;
     
+}
+@media screen and (max-width : 1200px) {
+    .topic2{
+        font-size: 40px;
+        color: #AFA282;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 600;
     }
 }
+@media screen and (max-width : 768px) {
+    .navigationbar{
+        background-color: rgba(255, 255, 255, 0.979);
+       
+    }
+    .topic{
+        font-size: 20px;
+        color: #000;
+        }
+        .nav-active{
+            box-shadow: 5px 6px 8px #afa28200 ;
+        }
+        .nav-item{
+            background-color: #afa28200 ;
+            margin: 10px 10px;
+            width: 100%;
+            text-align: center;
+            border-radius: 50px;
+            color: black;
+            transition: 0.5s;
+        
+        }
+        
+        .nav-item:hover{
+            background-color: #afa28200 ;
+            margin: 10px 10px;
+            width: 100%;
+            text-align: center;
+            border-radius: 50px;
+            color: black;
+            transition: 0.5s;
+            box-shadow: 5px 6px 8px #afa28200 ;
+        
+        }
+        .navlink{
+            color: #AFA282;
+            text-decoration: none;
+        }
+}
+
